@@ -1,0 +1,26 @@
+==========================================
+gpu_id:0
+s:0
+t:1
+max_epoch:10
+batch_size:64
+worker:4
+dset:VISDA-C
+lr:0.001
+net:resnet101
+seed:2020
+bottleneck:256
+epsilon:1e-05
+layer:wn
+classifier:bn
+smooth:0.1
+output:experiments/VISDA-C/source/
+da:uda
+trte:val
+class_num:12
+s_dset_path:./data/VISDA-C/train_list.txt
+test_dset_path:./data/VISDA-C/validation_list.txt
+output_dir_src:experiments/VISDA-C/source/uda/VISDA-C/T
+name_src:T
+out_file:<_io.TextIOWrapper name='experiments/VISDA-C/source/uda/VISDA-C/T/log.txt' mode='w' encoding='UTF-8'>
+
