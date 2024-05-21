@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T01:34:41.759Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SkbaMBZKD_F_xDtk8C9y" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T01:40:58.088Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="fAIJBjkVOu_1ZcemztfV" version="24.4.4" type="github">
   <diagram name="第 1 页" id="wYVyvaEcZD8OyRuN2Wk_">
     <mxGraphModel dx="1026" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NOivgjeloXwY_Hm_saF0-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;生成job2vec&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="152" width="160" height="60" as="geometry" />
+          <mxGeometry x="160" y="160" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NOivgjeloXwY_Hm_saF0-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NOivgjeloXwY_Hm_saF0-3" target="NOivgjeloXwY_Hm_saF0-5">
           <mxGeometry relative="1" as="geometry" />
@@ -22,8 +22,25 @@
         <mxCell id="NOivgjeloXwY_Hm_saF0-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;执行job-recall服务&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="400" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="NOivgjeloXwY_Hm_saF0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NOivgjeloXwY_Hm_saF0-9" target="NOivgjeloXwY_Hm_saF0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NOivgjeloXwY_Hm_saF0-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;preon环境&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="510" width="160" height="60" as="geometry" />
+          <mxGeometry x="320" y="510" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NOivgjeloXwY_Hm_saF0-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;进行线上实验&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NOivgjeloXwY_Hm_saF0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOivgjeloXwY_Hm_saF0-13" target="NOivgjeloXwY_Hm_saF0-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NOivgjeloXwY_Hm_saF0-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;zp-recall打包&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NOivgjeloXwY_Hm_saF0-16" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;zp-recall打包&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
